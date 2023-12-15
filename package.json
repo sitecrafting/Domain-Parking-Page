@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-12-06 --proxy 5173 -- npm run dev",
+    "pages:dev": "wrangler pages deploy ./ --project-name=sc-domain-landing-page --branch=staging --commit-dirty=true",
     "pages:deploy": "wrangler pages deploy ./ --project-name=sc-domain-landing-page --branch=main --commit-dirty=true"
   },
   "dependencies": {
