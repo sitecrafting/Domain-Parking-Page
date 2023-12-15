@@ -1,0 +1,15 @@
+{
+  "name": "sc-domain-landing-page",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-12-06 --proxy 5173 -- npm run dev",
+    "pages:deploy": "wrangler pages deploy ./"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "wrangler": "^3.20.0"
+  }
+}
